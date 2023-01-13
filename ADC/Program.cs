@@ -22,9 +22,16 @@ namespace ADC
             //Console.WriteLine(Day3BetterCode.PartTwo(iday3));
             //Console.ReadLine();
 
-           // Day 4 class call
-            String iday4 = "ckczppom";
-            Console.WriteLine(Day4.PartOne(iday4));
+            // Day 4 class call
+            //String iday4 = "ckczppom";
+            //Console.WriteLine(Day4.PartOne(iday4));
+            //Console.ReadLine();
+
+            // Day 5 class call
+            //String[] iday5 = new string[] { "ugknbfddgicrmopn", "aaa", "jchzalrnumimnmhp", "haegwjzuvuyypxyu", "dvszwmarrgswjxmb" };
+            String iday5 = File.ReadAllText(@"C:\Users\bringdev\Downloads\Day5.txt");
+            //Console.WriteLine(Day5.findStatus(iday5));
+            Console.WriteLine(Day5Regex.Part2(@"C:\Users\bringdev\Downloads\Day5.txt"));
             Console.ReadLine();
 
 
